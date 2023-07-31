@@ -1,3 +1,3 @@
-# telbit
+# Portfolio
 
-alp-cody de telbit
+Projeto do meu portfólio desenvolvido com WP como CMS
