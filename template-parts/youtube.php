@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.534" height="16.067" viewBox="0 0 21.534 16.067">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #f1f0f5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="ic-social-youtube" transform="translate(-1.233 -3.966)">
+    <path id="Caminho_1416" data-name="Caminho 1416" class="cls-1" d="M12,19.27a42.87,42.87,0,0,0,7.36-.45,2.67,2.67,0,0,0,1.82-1.46A13.57,13.57,0,0,0,22,12a13.57,13.57,0,0,0-.82-5.36,2.93,2.93,0,0,0-1.82-1.46A42.87,42.87,0,0,0,12,4.73a42.87,42.87,0,0,0-7.36.45A2.67,2.67,0,0,0,2.82,6.64,13.57,13.57,0,0,0,2,12a13.57,13.57,0,0,0,.82,5.36,2.93,2.93,0,0,0,1.82,1.46,42.87,42.87,0,0,0,7.36.45Z"/>
+    <path id="Caminho_1417" data-name="Caminho 1417" class="cls-1" d="M9.53,14.47V9.53A.6.6,0,0,1,10.44,9l4.12,2.48a.59.59,0,0,1,0,1L10.44,15a.6.6,0,0,1-.91-.53Z"/>
+  </g>
+</svg>
