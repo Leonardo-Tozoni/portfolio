@@ -1,0 +1,497 @@
+// --------------------------------
+
+// (START) Global editor code https://codyhouse.co/ds/globals/buttons
+
+// --------------------------------
+
+:root {
+  --btn-font-size: 1em;
+  --btn-padding-x: var(--space-sm);
+  --btn-padding-y: var(--space-xxs);
+  --btn-radius: 0.25em;
+}
+
+.btn {
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1.2;
+  @include fontSmooth;
+  box-shadow: var(--shadow-xs);
+  transition: all 0.2s ease;
+  will-change: transform;
+
+  &:hover {
+    box-shadow: var(--shadow-sm);
+  }
+
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
+
+  &:active {
+    transform: translateY(2px);
+  }
+}
+
+// themes
+
+.btn-hover-contato {
+  background: var(--color-contrast-medium);
+  color: var(--color-white);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: var(--space-sm) var(--space-lg);
+  font-family: var(--font-primary);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 1;
+  box-shadow: none;
+  outline: none;
+
+  &:hover {
+    background: var(--color-contrast-medium);
+    color: var(--color-white);
+    outline: none;
+  }
+}
+
+.btn--primary {
+  background: var(--color-contrast-medium);
+  color: var(--color-white);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: var(--space-sm) var(--space-lg);
+  font-family: var(--font-primary);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 1;
+  box-shadow: none;
+  outline: none;
+
+  &:hover {
+    background: var(--color-primary);
+    color: var(--color-white);
+    outline: none;
+  }
+
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
+
+  &:active {
+    box-shadow: 4px 4px 8px  alpha(var(--color-accent), 0.6);
+  }
+}
+
+.btn--subtle {
+  background: transparent;
+  color: var(--color-accent);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: var(--space-sm) var(--space-lg);
+  border: 1px solid var(--color-accent);
+  font-family: var(--font-primary);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 1;
+  box-shadow: none;
+  outline: none;
+
+  svg{
+    height: 24px;
+    margin-right: var(--space-xs);
+    path{
+      fill: var(--color-purple);
+    }
+  }
+
+  &:hover {
+    background: var(--color-accent);
+    color: var(--color-white);
+    border: 1px solid var(--color-accent);
+    outline: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .btn--subtle {
+    background: transparent;
+    color: var(--color-accent);
+    border-radius: 8px;
+    cursor: pointer;
+    padding: var(--space-sm) 42%;
+    border: 1px solid var(--color-accent);
+    font-family: var(--font-primary);
+    font-size: var(--text-sm);
+    font-weight: 700;
+    text-transform: none;
+    text-decoration: none;
+    line-height: 1;
+    box-shadow: none;
+    outline: none;
+  
+    svg{
+      height: 24px;
+      margin-right: var(--space-xs);
+      path{
+        fill: var(--color-purple);
+      }
+    }
+  
+    &:hover {
+      background: var(--color-accent);
+      color: var(--color-white);
+      border: 1px solid var(--color-accent);
+      outline: none;
+    }
+  }
+}
+
+.btn--subtle-full {
+  background: var(--color-primary);
+  color: var(--color-light);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: var(--space-sm) var(--space-lg);
+  border: 1px solid var(--color-primary);
+  font-family: var(--font-primary);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 1;
+  box-shadow: none;
+  outline: none;
+
+  .icon{
+    circle,
+    line{
+      transition: all .3s;
+    }
+  }
+
+  &:hover {
+    background: var(--color-primary);
+    color: var(--color-light);
+    border: 1px solid var(--color-primary);
+    box-shadow: 4px 4px 8px  alpha(var(--color-primary), 0.3);
+    outline: none;
+
+    .icon{
+      circle,
+      line{
+        stroke: var(--color-accent);
+      }
+    }
+  }
+}
+
+.btn--agricola {
+  background: transparent;
+  color: var(--color-green);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: var(--space-sm) var(--space-lg);
+  border: 1px solid var(--color-green);
+  font-family: var(--font-green);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 1;
+  box-shadow: none;
+  outline: none;
+
+  svg{
+    height: 24px;
+    margin-right: var(--space-xs);
+    path{
+      fill: var(--color-purple);
+    }
+  }
+
+  &:hover {
+    background: var(--color-green);
+    color: var(--color-white);
+    border: 1px solid var(--color-green);
+    box-shadow: 4px 4px 8px  alpha(var(--color-green), 0.3);
+    outline: none;
+  }
+}
+
+.btn--bens {
+  background: transparent;
+  color: var(--color-orange);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: var(--space-sm) var(--space-lg);
+  border: 1px solid var(--color-orange);
+  font-family: var(--font-orange);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 1;
+  box-shadow: none;
+  outline: none;
+
+  svg{
+    height: 24px;
+    margin-right: var(--space-xs);
+    path{
+      fill: var(--color-purple);
+    }
+  }
+
+  &:hover {
+    background: var(--color-orange);
+    color: var(--color-white);
+    border: 1px solid var(--color-orange);
+    box-shadow: 4px 4px 8px  alpha(var(--color-orange), 0.3);
+    outline: none;
+  }
+}
+
+.btn--familia {
+  background: transparent;
+  color: var(--color-purple);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: var(--space-sm) var(--space-lg);
+  border: 1px solid var(--color-purple);
+  font-family: var(--font-purple);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 1;
+  box-shadow: none;
+  outline: none;
+
+  svg{
+    height: 24px;
+    margin-right: var(--space-xs);
+    path{
+      fill: var(--color-purple);
+    }
+  }
+
+  &:hover {
+    background: var(--color-purple);
+    color: var(--color-white);
+    border: 1px solid var(--color-purple);
+    box-shadow: 4px 4px 8px  alpha(var(--color-purple), 0.3);
+    outline: none;
+  }
+}
+
+.btn--accent {
+  background: transparent;
+  color: var(--color-accent);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: var(--space-sm) var(--space-lg);
+  border: 1px solid var(--color-accent);
+  font-family: var(--font-primary);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 1;
+  box-shadow: none;
+  outline: none;
+
+  &:hover {
+    background: var(--color-accent);
+    color: var(--color-white);
+    cursor: pointer;
+    box-shadow: 4px 4px 8px  alpha(var(--color-accent), 0.4);
+    outline: none;
+  }
+
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
+}
+
+.btn--fake {
+  background: transparent;
+  color: alpha(var(--color-primary), .6);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: var(--space-sm) var(--space-lg);
+  border: none;
+  font-family: var(--font-primary);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 1;
+  box-shadow: none;
+  outline: none;
+
+  &:hover {
+    background: var(--color-primary);
+    color: var(--color-light);
+    cursor: pointer;
+    box-shadow: 4px 4px 8px  alpha(var(--color-primary), 0.4);
+    outline: none;
+  }
+
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
+}
+
+.btn--light {
+  background: transparent;
+  color: var(--color-white);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: var(--space-sm) var(--space-lg);
+  border: 1px solid var(--color-white);
+  font-family: var(--font-primary);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 1;
+  box-shadow: none;
+  outline: none;
+
+  svg{
+    height: 24px;
+    margin-right: var(--space-xs);
+    path{
+      fill: var(--color-accent);
+    }
+  }
+
+  &:hover {
+    background: var(--color-white);
+    color: var(--color-primary);
+    box-shadow: 4px 4px 8px alpha(var(--color-light), .3);
+    outline: none;
+  }
+
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
+}
+
+.btn--purple {
+  background: var(--color-accent);
+  color: var(--color-white);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: var(--space-sm) var(--space-lg);
+  font-family: var(--font-primary);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 1;
+  box-shadow: none;
+  outline: none;
+  
+  &:hover {
+  background: var(--color-accent-darker);
+  box-shadow: none;
+  outline: none;
+  }
+  
+  &:focus {
+  box-shadow: none;
+  outline: none;
+  }
+  }
+  
+  .flex-news {
+  display: flex;
+  align-items: center;
+  }
+  
+  .margin-left-sm {
+  margin-left: var(--space-sm);
+  }
+  
+  .input-with-button {
+  width: 100%;
+  }
+  
+  .input-with-button input {
+  flex-grow: 1;
+  margin-right: var(--space-sm);
+  }
+  
+  .input-with-button button {
+  width: 20%;
+  }
+
+  .padding-newsletter {
+    padding: 5px;
+  }
+
+.btn--purple-out {
+  background: transparent;
+  color: var(--color-purple);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: var(--space-sm) var(--space-lg);
+  border: 1px solid var(--color-purple);
+  font-family: var(--font-purple);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 1;
+  box-shadow: none;
+  outline: none;
+
+  &:hover {
+    background: var(--color-purple);
+    color: var(--color-white);
+    border: 1px solid var(--color-purple);
+    box-shadow: 4px 4px 8px  alpha(var(--color-purple), 0.3);
+    outline: none;
+  }
+}
+
+// feedback
+.btn--disabled, .btn[disabled], .btn[readonly] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+// size
+.btn--sm {
+}
+
+.btn--md {
+  font-family: var(--font-primary);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  line-height: 1;
+  border: 1px solid;
+}
+
+.btn--lg {
+
+}
+
+// --------------------------------
+
+// (END) Global editor code
+
+// --------------------------------
