@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.5" height="14.03" viewBox="0 0 21.5 14.03">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #f1f0f5;
+        stroke-linecap: round;
+        stroke-width: 1.5px;
+      }
+
+      .cls-1 {
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke-linejoin: bevel;
+      }
+    </style>
+  </defs>
+  <g id="ic-actions-view" transform="translate(-1.25 -4.994)">
+    <path id="Caminho_1089" data-name="Caminho 1089" class="cls-1" d="M22,12.12,19.4,15A10,10,0,0,1,4.6,15L2,12.12H2L4.32,9.34a10,10,0,0,1,15.36,0Z"/>
+    <ellipse id="Elipse_384" data-name="Elipse 384" class="cls-2" cx="2.6" cy="2.5" rx="2.6" ry="2.5" transform="translate(9.49 9.26)"/>
+  </g>
+</svg>

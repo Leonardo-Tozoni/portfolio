@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.5" height="15.5" viewBox="0 0 21.5 15.5">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #1c1c38;
+        stroke-linecap: round;
+        stroke-width: 1.5px;
+      }
+
+      .cls-1 {
+        stroke-linejoin: bevel;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="ic-contact-mail" transform="translate(-1.25 -4.25)">
+    <rect id="Retângulo_361" data-name="Retângulo 361" class="cls-1" width="20" height="14" rx="2" transform="translate(2 5)"/>
+    <path id="Caminho_1127" data-name="Caminho 1127" class="cls-2" d="M2.58,5.59l8.23,8.22a2,2,0,0,0,2.83,0l8-8"/>
+  </g>
+</svg>

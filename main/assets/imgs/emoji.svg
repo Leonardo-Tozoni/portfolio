@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.5" height="21.5" viewBox="0 0 21.5 21.5">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #fc9a49;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="ic-emoji-pretty-good" transform="translate(-1.25 -1.25)">
+    <circle id="Elipse_248" data-name="Elipse 248" class="cls-1" cx="10" cy="10" r="10" transform="translate(2 2)"/>
+    <circle id="Elipse_249" data-name="Elipse 249" class="cls-1" cx="1.5" cy="1.5" r="1.5" transform="translate(7 8)"/>
+    <circle id="Elipse_250" data-name="Elipse 250" class="cls-1" cx="1.5" cy="1.5" r="1.5" transform="translate(14 8)"/>
+    <path id="Caminho_735" data-name="Caminho 735" class="cls-2" d="M9,14.93a2.87,2.87,0,0,0,3,2.72h0a2.87,2.87,0,0,0,3-2.72"/>
+  </g>
+</svg>

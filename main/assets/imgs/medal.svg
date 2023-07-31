@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #672ee5;
+        opacity: 0.2;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #672ee5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_411" data-name="Grupo 411" transform="translate(-108.676 -2030.227)">
+    <circle id="Elipse_12" data-name="Elipse 12" class="cls-1" cx="22" cy="22" r="22" transform="translate(108.676 2030.227)"/>
+    <g id="ic-sport-winner" transform="translate(118.676 2040.227)">
+      <circle id="Elipse_318" data-name="Elipse 318" class="cls-2" cx="8" cy="8" r="8" transform="translate(4 6.4)"/>
+      <path id="Caminho_953" data-name="Caminho 953" class="cls-2" d="M9.29,6.87l-3-3.65A1,1,0,0,1,7.08,1.6h9.84a1,1,0,0,1,.78,1.62l-3,3.65"/>
+      <path id="Caminho_954" data-name="Caminho 954" class="cls-2" d="M9.99,12.91l2.29-2.61v8"/>
+    </g>
+  </g>
+</svg>

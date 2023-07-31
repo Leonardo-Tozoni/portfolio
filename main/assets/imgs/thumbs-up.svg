@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.65" height="18.38" viewBox="0 0 18.65 18.38">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #f1f0f5;
+        stroke-linecap: round;
+        stroke-width: 1.5px;
+      }
+
+      .cls-1 {
+        stroke-linejoin: round;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        stroke-linejoin: bevel;
+      }
+    </style>
+  </defs>
+  <g id="ic-actions-thumbs-up" transform="translate(-3.1 -2.81)">
+    <path id="Caminho_1085" data-name="Caminho 1085" class="cls-1" d="M18.19,9.19h-5L12,5.48A2.81,2.81,0,0,0,9.33,3.56H8.81A2.81,2.81,0,0,0,6,6.37V17.63a2.81,2.81,0,0,0,2.82,2.81H15.7a2.79,2.79,0,0,0,1.69-.56L19.88,18A2.8,2.8,0,0,0,21,15.75V12a2.81,2.81,0,0,0-2.81-2.81Z"/>
+    <line id="Linha_1308" data-name="Linha 1308" class="cls-2" y2="9.44" transform="translate(3.85 9.58)"/>
+  </g>
+</svg>

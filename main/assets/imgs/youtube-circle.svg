@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1c1c38;
+        opacity: 0.1;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #1c1c38;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_442" data-name="Grupo 442" transform="translate(-424.797 -1506.043)">
+    <g id="Grupo_328" data-name="Grupo 328" transform="translate(-1077.768 -5925.116)">
+      <circle id="Elipse_555" data-name="Elipse 555" class="cls-1" cx="24" cy="24" r="24" transform="translate(1502.564 7431.159)"/>
+      <g id="ic-social-youtube" transform="translate(1514.564 7443.159)">
+        <path id="Caminho_1416" data-name="Caminho 1416" class="cls-2" d="M12,19.27a42.87,42.87,0,0,0,7.36-.45,2.67,2.67,0,0,0,1.82-1.46A13.57,13.57,0,0,0,22,12a13.57,13.57,0,0,0-.82-5.36,2.93,2.93,0,0,0-1.82-1.46A42.87,42.87,0,0,0,12,4.73a42.87,42.87,0,0,0-7.36.45A2.67,2.67,0,0,0,2.82,6.64,13.57,13.57,0,0,0,2,12a13.57,13.57,0,0,0,.82,5.36,2.93,2.93,0,0,0,1.82,1.46,42.87,42.87,0,0,0,7.36.45Z"/>
+        <path id="Caminho_1417" data-name="Caminho 1417" class="cls-2" d="M9.53,14.47V9.53A.6.6,0,0,1,10.44,9l4.12,2.48a.59.59,0,0,1,0,1L10.44,15a.6.6,0,0,1-.91-.53Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

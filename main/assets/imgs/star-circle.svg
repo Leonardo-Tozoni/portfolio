@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fc9a49;
+        opacity: 0.2;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fc9a49;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_412" data-name="Grupo 412" transform="translate(-732 -2257.227)">
+    <circle id="Elipse_13" data-name="Elipse 13" class="cls-1" cx="22" cy="22" r="22" transform="translate(732 2257.227)"/>
+    <g id="ic-actions-star" transform="translate(741.996 2267.571)">
+      <path id="Caminho_608" data-name="Caminho 608" class="cls-2" d="M11,3.19a1.08,1.08,0,0,1,2.06,0l1.86,5.72h6a1.09,1.09,0,0,1,.64,2l-4.87,3.53,1.86,5.73a1.08,1.08,0,0,1-1.67,1.21L12,17.81,7.13,21.35a1.08,1.08,0,0,1-1.67-1.21l1.86-5.73L2.45,10.88a1.09,1.09,0,0,1,.64-2h6Z"/>
+    </g>
+  </g>
+</svg>

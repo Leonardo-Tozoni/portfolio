@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #27c7b1;
+        opacity: 0.2;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #27c7b1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_413" data-name="Grupo 413" transform="translate(-318 -2391.227)">
+    <circle id="Elipse_13" data-name="Elipse 13" class="cls-1" cx="22" cy="22" r="22" transform="translate(318 2391.227)"/>
+    <g id="ic-ecommerce-house" transform="translate(328.004 2401.217)">
+      <path id="Caminho_709" data-name="Caminho 709" class="cls-2" d="M1.1,10.71,4,3H19.86a.22.22,0,0,1,.19.13l2.85,7.6a.2.2,0,0,1-.19.27H18L15,9l-3,2L9,9,6,11H1.29a.2.2,0,0,1-.19-.29Z"/>
+      <line id="Linha_789" data-name="Linha 789" class="cls-2" x2="0.03" y2="10.04" transform="translate(3.97 10.98)"/>
+      <line id="Linha_790" data-name="Linha 790" class="cls-2" x2="0.03" y2="10" transform="translate(20 10.98)"/>
+      <line id="Linha_791" data-name="Linha 791" class="cls-2" x1="20" y2="0.04" transform="translate(2 20.98)"/>
+      <path id="Caminho_710" data-name="Caminho 710" class="cls-2" d="M8,21V14.2a.2.2,0,0,1,.2-.2h7.6a.2.2,0,0,1,.2.2V21"/>
+      <line id="Linha_792" data-name="Linha 792" class="cls-2" y1="7" transform="translate(12 13.98)"/>
+    </g>
+  </g>
+</svg>

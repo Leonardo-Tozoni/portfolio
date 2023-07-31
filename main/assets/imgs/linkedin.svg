@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.5" height="19.5" viewBox="0 0 19.5 19.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #f1f0f5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="ic-social-linkedin" transform="translate(-2.25 -2.25)">
+    <rect id="Retângulo_448" data-name="Retângulo 448" class="cls-1" width="18" height="18" rx="6" transform="translate(3 3)"/>
+    <line id="Linha_1718" data-name="Linha 1718" class="cls-1" y2="6" transform="translate(7.63 10.89)"/>
+    <path id="Caminho_1412" data-name="Caminho 1412" class="cls-1" d="M10.38,16.89v-3a3,3,0,0,1,3-3h0a3,3,0,0,1,3,3v3"/>
+    <line id="Linha_1719" data-name="Linha 1719" class="cls-1" y1="0.11" transform="translate(7.63 7.78)"/>
+  </g>
+</svg>
