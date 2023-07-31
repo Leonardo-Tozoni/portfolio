@@ -1,0 +1,439 @@
+/* css reset */
+* {
+	margin:0;
+	padding:0;
+}
+.no-padding {
+	padding: 0;
+}
+:focus {
+	outline: 0;
+	box-shadow: none;
+}
+.vh100 {
+    height: 100vh;
+}
+/* css reset */
+html {
+	position: relative;
+	min-height: 100%;
+	overflow-y: scroll;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+    background-color: #f1f2f7!important;
+	color: #464750;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	letter-spacing: .2px;
+}
+body.modal-open {
+    padding-right: 0 !important;
+}
+a {
+	color: #7658b5;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+a:hover,
+a:focus {
+	color: #ff5f60;
+	text-decoration: none;
+}
+#header {
+	background: #2d2a38;
+	padding: 15px 0;
+	position: relative;
+    z-index: 1;
+    -webkit-box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .2);
+}
+#header .navbar .nav-link {
+    color: #f5f4f4;
+    font-weight: 600;
+    text-align: center;
+    padding: 8px 12px;
+}
+#header .navbar .nav-link:hover {
+	color: #41fcba;
+}
+#header .navbar-toggler {
+    outline: 0;
+    border: 2px solid #f5f4f4;
+    color: #f5f4f4;
+    border-radius: 0;
+    padding: 6px 15px;
+    font-size: 21px;
+    position: absolute;
+    top: -45px;
+    right: 0;
+}
+.rubrica-alp a {
+    background: url("../imgs/alpina-digital-branding.png") no-repeat 0 0;
+    width: 49px;
+    height: 35px;
+    display: block;
+    margin: 0 auto;
+    opacity: 0.7;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+.rubrica-alp a:hover {
+    background-position: 0px -35px;
+}
+#logo {
+	margin: 0;
+}
+#logo a {
+    display: block;
+    margin: 0 auto;
+    width: 49px;
+    height: 35px;
+    text-indent: -9999px;
+    background: none, url('../imgs/alpina-digital-branding.png') top center no-repeat;
+    /*background-size: contain;*/
+}
+#content {
+	padding: 40px 0;
+}
+#footer {
+	background: #403e48;
+    bottom: 0;
+    padding: 25px 0;
+    width: 100%;
+    -webkit-box-shadow: 0 -3px 7px 0 rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 -3px 7px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 -3px 7px 0 rgba(0, 0, 0, .2);
+}
+.container-full {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container-full:before,
+.container-full:after { 
+    display: table;
+    content: " ";
+}
+.container-full:after {
+    clear: both;
+}
+
+#menu-principal li a:hover, #menu-principal li.active a {
+    color: #ffc05e;
+}
+.banner {
+	background-image: url('../imgs/background-alpina.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #23212b;
+	color: #f5f4f4;
+}
+.banner .row {
+    height: calc(100vh - 168px);
+}
+
+/*CONTACT FORM 7*/
+
+div.wpcf7 .ajax-loader {
+    width: 20px!important;
+    height: 20px!important;
+    display: block!important;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 auto!important;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+input.contactForm:focus::-webkit-input-placeholder,
+textarea.contactForm:focus::-webkit-input-placeholder { 
+    color:transparent; 
+}
+input.contactForm:focus:-moz-placeholder,
+textarea.contactForm:focus:-moz-placeholder {
+    color:transparent; 
+}
+input.contactForm:focus::-moz-placeholder,
+textarea.contactForm:focus::-moz-placeholder { 
+    color:transparent;
+}
+input.contactForm:focus:-ms-input-placeholder,
+textarea.contactForm:focus:-ms-input-placeholder { 
+    color:transparent;
+}
+span.wpcf7-not-valid-tip { 
+    display: none!important; 
+}
+input[aria-invalid="true"].contactForm, 
+select[aria-invalid="true"].contactForm,
+textarea[aria-invalid="true"].contactForm { 
+    border-color: #ea515c!important; 
+    background-color: rgba(0, 0, 0, 0.1)!important; 
+}
+div.wpcf7-validation-errors {
+    display: none !important;
+}
+span.wpcf7-not-valid-tip {
+    padding: 0 10px;
+    font-weight: 600;
+    color: #fff;
+    transition: all .3s cubic-bezier(0.4, 0, 1, 1);
+    display: block;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.wpcf7-mail-sent-ok {
+    padding: 0;
+    color: #f2f5f4;
+    background-color: transparent;
+    display: block;
+    border-radius: 2px;
+    text-align: center;
+    border: none;
+    margin: 10px 0 0 0;
+}
+input.contactForm, 
+select.contactForm,
+input[type=text].contactForm, 
+input[type=email].contactForm, 
+input[type=tel].contactForm,
+textarea.contactForm {
+    padding: 23px 30px;
+    outline: 0;
+    background-color: transparent;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out false;
+    overflow: hidden;
+    width: 100%;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    border: 2px solid #f2f5f4;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #f2f5f4;
+    letter-spacing: 2px;
+}
+select.contactForm {
+    cursor: pointer;
+}
+input.contactForm::-webkit-input-placeholder, textarea.contactForm::-webkit-input-placeholder { 
+    color: #f2f5f4; 
+    letter-spacing: 0.1em;
+    transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+}
+input.contactForm:-moz-placeholder { 
+    color: #f2f5f4; 
+    letter-spacing: 0.1em;
+    transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+}
+input.contactForm::-moz-placeholder { 
+    color: #f2f5f4; 
+    letter-spacing: 0.1em;
+    transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+}
+input.contactForm:-ms-input-placeholder {  
+    color: #f2f5f4; 
+    letter-spacing: 0.1em;
+    transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+}
+textarea.contactForm {
+    margin-bottom: 5px;
+}
+input[type=submit].contactForm {
+    background-color: transparent;
+    text-transform: uppercase;
+    color: #26d591;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    margin: 0;
+    cursor: pointer;
+}
+input[type=submit].contactForm:hover {
+    color: #f2f5f4;
+}
+select.contactForm:hover, 
+input[type=text].contactForm:hover, 
+input[type=email].contactForm:hover, 
+input[type=tel].contactForm:hover, 
+textarea.contactForm:hover,
+select.contactForm:focus, 
+input[type=text].contactForm:focus, 
+input[type=email].contactForm:focus, 
+input[type=tel].contactForm:focus, 
+textarea.contactForm:focus {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+/*CONTACT FORM 7*/
+
+
+/* Responsivo */
+
+@media (max-width: 1199px) {
+    
+}
+@media (max-width: 991px) {
+
+}
+@media (max-width: 767px){
+
+}
+@media (max-width: 575px){
+
+}
+@media (min-width: 576px) {
+    
+}
+@media (min-width: 768px) {
+    .container-full {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    /* DROPDOWN MENU NO HOVER */
+    #header ul li.dropdown {
+        transition: all .2s ease-out;
+        -webkit-transition: all .2s ease-out;
+        -moz-transition: all .2s ease-out;
+        -o-transition: all .2s ease-out
+    }
+    #header .dropdown-menu {
+        background-color: #612158;
+        border-radius: 10px;
+        top: 52px;
+        left: -50%;
+        margin-top: 20px;
+        border: none;
+        width: 240px;
+        -webkit-box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .2);
+        -moz-box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .2);
+        box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .2);
+        transition: all .3s ease-out;
+        -webkit-transition: all .3s ease-out;
+        -moz-transition: all .3s ease-out;
+        -o-transition: all .3s ease-out
+    }
+    .dropdown-menu:before {
+        content: '';
+        border-top: 11px solid transparent;
+        border-bottom: 11px solid #612158;
+        border-left: 11px solid transparent;
+        border-right: 11px solid transparent;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 11px;
+        width: 11px;
+        margin: auto;
+        z-index: -1;
+        transition: all .2s ease-out;
+        -webkit-transition: all .2s ease-out;
+        -moz-transition: all .2s ease-out;
+        -o-transition: all .2s ease-out
+    }
+    ul.nav li.dropdown:hover>div.dropdown-menu:before {
+        top: -21px
+    }
+    .dropdown-item {
+        color: #fff;
+        white-space: normal;
+        text-align: center;
+        padding: 5px 25px;
+        line-height: 20px;
+        text-transform: uppercase
+    }
+    ul.nav li.dropdown:hover>div.dropdown-menu {
+        visibility: visible;
+        opacity: 1;
+        transition-delay: 0s;
+        margin-top: 0!important
+    }
+    #header .dropdown-menu>.active>a,
+    #header .dropdown-menu>.active>a:hover,
+    #header .dropdown-menu>.active>a:focus {
+        color: #70e4e9;
+        outline: 0
+    }
+    .dropdown-menu {
+        display: inherit;
+        visibility: hidden;
+        opacity: 0
+    }
+    .open>.dropdown-menu {
+        animation-name: slidenavAnimation;
+        animation-duration: .3s;
+        animation-iteration-count: 3;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+        -webkit-animation-name: slidenavAnimation;
+        -webkit-animation-duration: .3s;
+        -webkit-animation-iteration-count: 3;
+        -webkit-animation-timing-function: ease;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-name: slidenavAnimation;
+        -moz-animation-duration: .3s;
+        -moz-animation-iteration-count: 3;
+        -moz-animation-timing-function: ease;
+        -moz-animation-fill-mode: forwards
+    }
+    @keyframes slidenavAnimation {
+        from {
+            opacity: 0
+        }
+        to {
+            opacity: 1
+        }
+    }
+    @-webkit-keyframes "slidenavAnimation" {
+        from {
+            opacity: 0
+        }
+        to {
+            opacity: 1
+        }
+    }
+    /* DROPDOWN MENU NO HOVER FIM */
+    .container-full {
+        width: 970px;
+    }
+    .two-col {
+        -moz-column-count: 2;
+        -moz-column-gap: 35px;
+        -webkit-column-count: 2;
+        -webkit-column-gap: 35px;
+    }
+    #header .navbar {
+        float: right;
+    }
+}
+@media (min-width: 1200px) {
+    .container-full {
+        width: 1170px;
+    }
+}
+@media (min-width: 1730px) {
+    .container-full {
+        width: 1700px;
+    }
+}
